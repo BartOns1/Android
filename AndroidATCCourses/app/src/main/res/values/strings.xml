@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">AndroidATCCourses</string>
+    <string name="android_atc_course_list">Android atc courses list</string>
+    <string name="androidatcimage">image</string>
+    <string name="course_name">MAO</string>
+</resources>

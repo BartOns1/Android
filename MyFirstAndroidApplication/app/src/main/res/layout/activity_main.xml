@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context="bbsource.myfirstandroidapplication.MainActivity">
+
+    <TextView
+        android:id="@+id/txt_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bmi_calculator"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:id="@+id/txt_height"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/your_height_cm"
+        android:textSize="16sp"
+        android:layout_below="@id/txt_title"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        />
+
+    <EditText
+        android:id="@+id/edit_height"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/txt_height"
+        android:layout_toEndOf="@id/txt_height"
+        android:layout_alignBaseline="@id/txt_height"
+        android:inputType="number"
+        />
+
+    <TextView
+        android:id="@+id/txt_weight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/your_weight_in_kg"
+        android:textSize="16sp"
+        android:layout_below="@id/txt_height"
+        android:layout_alignLeft="@id/txt_height"
+        android:layout_alignStart="@id/txt_height"
+        android:layout_marginTop="40dp"
+        />
+
+
+    <EditText
+        android:id="@+id/edit_weight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/txt_height"
+        android:layout_toEndOf="@id/txt_height"
+        android:layout_alignBaseline="@id/txt_weight"
+        android:inputType="number"
+        />
+
+    <Button
+        android:id="@+id/btn_compute"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_weight"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="30dp"
+        android:text="@string/compute_your_bmi"
+        />
+
+    <TextView
+        android:id="@+id/txt_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bmi_calculator"
+        android:layout_centerHorizontal="true"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/btn_compute"
+
+        />
+
+
+
+</RelativeLayout>

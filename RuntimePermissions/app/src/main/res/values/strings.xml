@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Runtime Permissions</string>
+    <string name="android_atc_course_list">android atc course list!</string>
+    <string name="request_storage_permission">Request Storage Permission</string>
+</resources>

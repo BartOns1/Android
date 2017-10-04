@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">DeepLinkAndroidATC</string>
+    <string name="android_atc_deep_link">Android atc deep link</string>
+</resources>
